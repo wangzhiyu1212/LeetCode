@@ -1,5 +1,13 @@
 package leetcode;
 
+import java.util.Arrays;
+
+/**
+ * SortArray s = new SortArray();
+		System.out.println(Arrays.toString(s.quickSort(new int[] {-4,0,7,-4,9,-5,-4,0,-7,-1})));
+ * @author wangl
+ *
+ */
 public class SortArray {
 	public int[] bubbleSort(int[] nums) {
         if (nums.length <= 1) return nums;
@@ -42,11 +50,24 @@ public class SortArray {
         return nums;
 	}
 	public int[] quickSort(int[] nums) {
-		return new int[] {0};
+		recursive(nums,0,nums.length-1);
+		return nums;
 	}
 	public void recursive(int[] a, int left, int right) {
-	    	if (left >= right) return;
-	    	
+	    if (left >= right) return;
+	    int key = a[left];
+	    int p1 = left , p2 = right;
+	    while (left < right) {
+	    	while (left < right && key <= a[right])
+	    		right--;
+	    	a[left] = a[right];
+	    	while (left < right && key >= a[left]) 
+	    		left++;
+	    	a[right] = a[left];
+	    }
+    	a[left] = key;
+    	recursive(a,p1,right-1);
+	    recursive(a,right+1,p2);
 	}
 }
 

@@ -1,5 +1,8 @@
 package leetcode;
-
+/**
+ * IsValid a = new IsValid();
+		System.out.println(a.isValid("()[]{}"));
+ */
 import java.util.Stack;
 
 public class IsValid {

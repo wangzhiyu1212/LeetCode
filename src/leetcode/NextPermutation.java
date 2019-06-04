@@ -1,7 +1,5 @@
 package leetcode;
 
-import java.util.Arrays;
-
 public class NextPermutation {
 	private void swap(int[] nums, int i, int j) {
         int temp = nums[i];

@@ -1,7 +1,5 @@
 package leetcode;
 
-import java.util.Arrays;
-
 public class SearchRange {
 	public int[] searchRange(int[] nums, int target) {
         int[] out = new int[] {-1,-1};

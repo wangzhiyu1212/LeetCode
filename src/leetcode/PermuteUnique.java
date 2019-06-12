@@ -1,7 +1,6 @@
 package leetcode;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
@@ -10,7 +9,6 @@ public class PermuteUnique {
 	public List<List<Integer>> permuteUnique(int[] nums) {
 		List<Integer> list = new ArrayList<Integer>();
 		int length = nums.length;
-		Arrays.sort(nums);
         for (int i: nums) 
         	list.add(i);
         backtrack(list, 0, length);

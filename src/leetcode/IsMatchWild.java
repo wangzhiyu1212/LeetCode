@@ -2,31 +2,30 @@ package leetcode;
 
 public class IsMatchWild {
 	public boolean isMatch(String s, String p) {
-		if (p.isEmpty()) return s.isEmpty();
-		if (s.isEmpty()) {
-			if (p.charAt(0) == '*')
-				return isMatch(s, p.substring(1));
-			else return false;
-		}
-		if (p.length() == 1) {
-			if (p.charAt(0) == '*')
-				return true;
-			else
-				return (s.length() == 1) &&(s.charAt(0) == p.charAt(0) || p.charAt(0) == '?');
+		boolean[][] value = new boolean[p.length()+1][s.length()+1];
+        value[0][0] = true;
+        for(int i = 1;i <= s.length();i++){
+            value[0][i] = false;
         }
-		if (p.charAt(0) == '*') {
-			while (p.length()>1 && p.charAt(1) == '*') {
-				p = p.substring(1);
-				if (p.length() == 1 && p.charAt(0) == '*')
-					return true;
-			}
-			for (int i=0; i<s.length(); i++) {
-				if ((s.charAt(i) == p.charAt(1) || p.charAt(1) == '?') && isMatch(s.substring(i), p.substring(1)))
-					return true;
-			}	
-		} else {
-			return (s.charAt(0) == p.charAt(0) || p.charAt(0) == '?') && isMatch(s.substring(1),p.substring(1));
-		}
-		return false;
+        for(int i = 1;i <= p.length(); i++){
+            if(p.charAt(i-1) == '*'){
+                value[i][0] = value[i-1][0];
+                for(int j = 1;j <= s.length(); j++){
+                    value[i][j] = (value[i][j-1] || value[i-1][j]);
+                }
+            }else if(p.charAt(i-1) == '?'){
+                value[i][0] = false;
+                for(int j = 1;j <= s.length(); j++){
+                    value[i][j] = value[i-1][j-1];
+                }
+            }else {
+                value[i][0] = false;
+                for(int j = 1;j <= s.length(); j++){
+                    value[i][j] = s.charAt(j-1) == p.charAt(i-1) && value[i-1][j-1];
+                }
+            }
+
+        }
+        return value[p.length()][s.length()];
     }
 }

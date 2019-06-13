@@ -29,6 +29,7 @@ public class SpiralOrder {
 		spiral(matrix,top+1,bottom-1,left+1,right-1);			
 	}
 	public List<Integer> spiralOrder(int[][] matrix) {
+		if (matrix.length == 0) return out;
         spiral(matrix, 0, matrix.length-1, 0, matrix[0].length-1);
         return out;
     }

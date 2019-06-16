@@ -1,6 +1,7 @@
 package leetcode;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class InsertInterval {
@@ -28,3 +29,12 @@ public class InsertInterval {
         return res;
     }
 }
+/**
+InsertInterval t = new InsertInterval();
+int[][] test = new int[][] {
+	{1,1},{6,9},{8,10},{12,16}
+};
+int[] a = new int[] {2,2};
+for(int[] b:t.insert(test, a))
+	System.out.println(Arrays.toString(b));
+*/

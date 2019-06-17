@@ -9,7 +9,12 @@ import java.util.List;
 import java.util.Map;
 
 public class LetterCombinations {
-	Map<String, String> phone = new HashMap<String, String>(){{
+	Map<String, String> phone = new HashMap<String, String>(){/**
+		 * 
+		 */
+		private static final long serialVersionUID = 1L;
+
+	{
 	    put("2","abc");
 	    put("3","def");
 	    put("4","ghi");

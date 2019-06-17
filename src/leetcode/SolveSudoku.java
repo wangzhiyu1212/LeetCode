@@ -1,7 +1,5 @@
 package leetcode;
 
-import java.util.Arrays;
-
 public class SolveSudoku {
 	char[][] board;
 	int n = 9;

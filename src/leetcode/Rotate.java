@@ -1,7 +1,5 @@
 package leetcode;
 
-import java.util.Arrays;
-
 public class Rotate {
 	public void rotate(int[][] matrix) {
 		int len = matrix.length;

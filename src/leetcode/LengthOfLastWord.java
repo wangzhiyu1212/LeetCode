@@ -3,7 +3,7 @@ package leetcode;
 public class LengthOfLastWord {
 	public int lengthOfLastWord(String s) {
         boolean flag = false;
-        int out=0,start=0,end=0;
+        int start=0,end=0;
         for (int i=s.length()-1; i>=0; i--) {
         	if (s.charAt(i) != ' ' && !flag) {
         		flag = true;

@@ -1,14 +1,14 @@
 package codetest;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.io.Serializable;
 
 public class Test {
      
     public static void main(String[] args) {
-    	String s = "12**";
-    	System.out.println(s.replace("*", ""));
-    	System.out.println(s.substring(0));
+    	List<Integer> list = new ArrayList<Integer>();
     	
     }
 }

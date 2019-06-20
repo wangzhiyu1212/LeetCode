@@ -41,7 +41,7 @@ public class MinWindow {
         	return s.substring(ans[1], ans[2] + 1);
     }
 }
-/**
+/*
 MinWindow t = new MinWindow();
 System.out.println(t.minWindow("a", "a"));
 */

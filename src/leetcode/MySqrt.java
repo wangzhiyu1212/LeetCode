@@ -28,7 +28,7 @@ public class MySqrt {
 		}
     }
 }
-/**
+/*
 MySqrt t = new MySqrt();
 System.out.println(t.mySqrt2(4));
 */

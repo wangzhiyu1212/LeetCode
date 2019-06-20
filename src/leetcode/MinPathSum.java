@@ -19,7 +19,7 @@ public class MinPathSum {
 		return matrix[m-1][n-1];
     }
 }
-/**
+/*
 MinPathSum t = new MinPathSum();
 		int[][] matrix = new int[][]{
 			{1, 2, 3},
@@ -27,4 +27,4 @@ MinPathSum t = new MinPathSum();
 			{7, 8, 9}
 			};
 		System.out.println(t.minPathSum(matrix));
-		*/
+*/

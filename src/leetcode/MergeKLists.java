@@ -35,7 +35,7 @@ public class MergeKLists {
         return first.next;
     }
 }
-/**
+/*
  * MergeKLists a = new MergeKLists();
 		ListNode l1 = new ListNode(1);
     	l1.next = new ListNode(2);

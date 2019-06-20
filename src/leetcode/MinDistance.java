@@ -32,7 +32,7 @@ public class MinDistance {
 	    return dp[n][m];
     }
 }
-/**
+/*
 MinDistance t = new MinDistance();
 System.out.println(t.minDistance("horse", "ros"));
 */

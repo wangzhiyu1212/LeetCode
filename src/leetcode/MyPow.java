@@ -19,7 +19,7 @@ public class MyPow {
         return fastPow(x, N);
     }
 }
-/**
+/*
 MyPow t = new MyPow();
 System.out.println(t.myPow(2, -3));
 */

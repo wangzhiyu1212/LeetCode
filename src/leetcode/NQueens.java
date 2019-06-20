@@ -73,7 +73,7 @@ public class NQueens {
 		return out;
 	}
 }
-/**
+/*
 NQueens t = new NQueens();
 for(List<String> s:t.solveNQueens(8))
 	System.out.println(s.toString());

@@ -30,7 +30,7 @@ public class CombinationSum {
         return out;
     }
 }
-/**
+/*
 CombinationSum s = new CombinationSum();
 for(List<Integer> list: s.combinationSum(new int[] {2,3,6,7}, 7))
 	System.out.println(list.toString());

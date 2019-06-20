@@ -32,7 +32,7 @@ public class CombinationSum2 {
         return out;
     }
 }
-/**
+/*
 CombinationSum2 s = new CombinationSum2();
 		for(List<Integer> list: s.combinationSum2(new int[] {10,1,2,7,6,1,5}, 8))
 			System.out.println(list.toString());

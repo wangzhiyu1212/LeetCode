@@ -53,7 +53,7 @@ public class AddBinary {
         return out.toString();
     }
 }
-/**
+/*
 AddBinary t = new AddBinary();
 System.out.println(t.addBinary2("1111", "1111"));
 */

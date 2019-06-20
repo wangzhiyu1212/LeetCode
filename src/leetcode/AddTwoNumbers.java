@@ -1,21 +1,5 @@
 package leetcode;
-/**
- *     	ListNode l1 = new ListNode(2);
-    	l1.next = new ListNode(4);
-    	l1.next.next = new ListNode(3);
-    	ListNode l2 = new ListNode(5);
-    	l2.next = new ListNode(6);
-    	l2.next.next = new ListNode(4);
-    	l2.next.next.next = new ListNode(2);
-    	AddTwoNumbers a = new AddTwoNumbers();
-    	ListNode l = a.addTwoNumbers(l1, l2);
-    	while (l!=null) {
-    		System.out.println(l.val);
-    		l = l.next;
-    	}
- * @author wangl
- *
- */
+
 class ListNode {
 	int val;
 	ListNode next;
@@ -48,3 +32,18 @@ public class AddTwoNumbers {
 		return q;
 	}
 }
+/*
+ListNode l1 = new ListNode(2);
+l1.next = new ListNode(4);
+l1.next.next = new ListNode(3);
+ListNode l2 = new ListNode(5);
+l2.next = new ListNode(6);
+l2.next.next = new ListNode(4);
+l2.next.next.next = new ListNode(2);
+AddTwoNumbers a = new AddTwoNumbers();
+ListNode l = a.addTwoNumbers(l1, l2);
+while (l!=null) {
+	System.out.println(l.val);
+	l = l.next;
+}
+*/

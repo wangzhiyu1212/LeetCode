@@ -1,7 +1,5 @@
 package leetcode;
 
-import java.util.Arrays;
-
 public class SortColors {
 	public void swap(int[] nums, int a, int b) {
 		int temp = nums[a];
@@ -24,7 +22,7 @@ public class SortColors {
         }
     }
 }
-/**
+/*
 SortColors t = new SortColors();
 int[] color = new int[] {2,0,2,1,1,0};
 t.sortColors(color);

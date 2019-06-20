@@ -1,10 +1,5 @@
 package leetcode;
-/**
- * IsMatch a = new IsMatch();
-		System.out.println(a.isMatch("aaaa", "a*aa"));
- * @author wangl
- *
- */
+
 public class IsMatch {
 	public boolean isMatch(String s, String p) {
         if (p.isEmpty()) return s.isEmpty();
@@ -22,3 +17,7 @@ public class IsMatch {
         return isMatch(s.substring(0),p.substring(2));
     }
 }
+/*
+ * IsMatch a = new IsMatch();
+		System.out.println(a.isMatch("aaaa", "a*aa"));
+ */

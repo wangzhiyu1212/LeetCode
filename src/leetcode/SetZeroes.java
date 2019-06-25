@@ -27,7 +27,7 @@ public class SetZeroes {
         			matrix[i][j] = 0;
     }
 }
-/**
+/*
 int[][] matrix = new int[][]{
 {0, 1, 2, 0},
 {3, 4, 5, 2},

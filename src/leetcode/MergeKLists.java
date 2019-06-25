@@ -36,20 +36,18 @@ public class MergeKLists {
     }
 }
 /*
- * MergeKLists a = new MergeKLists();
-		ListNode l1 = new ListNode(1);
-    	l1.next = new ListNode(2);
-    	l1.next.next = new ListNode(4);
-    	ListNode l2 = new ListNode(1);
-    	l2.next = new ListNode(3);
-    	l2.next.next = new ListNode(4);
-    	l2.next.next.next = new ListNode(6);
-    	ListNode[] list = new ListNode[] {l1,l2};
-    	ListNode l = a.mergeKLists(list);
-    	while (l!=null) {
-    		System.out.println(l.val);
-    		l = l.next;
-    	}
- * @author wangl
- *
+MergeKLists a = new MergeKLists();
+ListNode l1 = new ListNode(1);
+l1.next = new ListNode(2);
+l1.next.next = new ListNode(4);
+ListNode l2 = new ListNode(1);
+l2.next = new ListNode(3);
+l2.next.next = new ListNode(4);
+l2.next.next.next = new ListNode(6);
+ListNode[] list = new ListNode[] {l1,l2};
+ListNode l = a.mergeKLists(list);
+while (l!=null) {
+   System.out.println(l.val);
+   l = l.next;
+}
  */

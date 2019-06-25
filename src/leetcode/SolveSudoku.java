@@ -61,7 +61,7 @@ public class SolveSudoku {
 		backtrack(0,0);
     }
 }
-/**
+/*
 char[][] board = new char[][]{
             {'.', '.', '5', '7', '.', '.', '.', '9', '.'},
             {'.', '.', '.', '.', '.', '1', '.', '8', '.'},
@@ -77,4 +77,4 @@ char[][] board = new char[][]{
 		s.solveSudoku(board);
 		for(char[] c:board)
 			System.out.println(Arrays.toString(c));
-			*/
+*/

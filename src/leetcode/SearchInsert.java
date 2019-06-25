@@ -20,7 +20,7 @@ public class SearchInsert {
         return left;
     }
 }
-/**
+/*
 SearchInsert s = new SearchInsert();
 System.out.println(s.searchInsert(new int[] {1,3,5,8}, 7));
 */

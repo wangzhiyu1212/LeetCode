@@ -1,10 +1,5 @@
 package leetcode;
-/**
- * SortArray s = new SortArray();
-		System.out.println(Arrays.toString(s.quickSort(new int[] {-4,0,7,-4,9,-5,-4,0,-7,-1})));
- * @author wangl
- *
- */
+
 public class SortArray {
 	public int[] bubbleSort(int[] nums) {
         if (nums.length <= 1) return nums;
@@ -67,5 +62,8 @@ public class SortArray {
 	    recursive(a,right+1,p2);
 	}
 }
-
+/*
+SortArray s = new SortArray();
+System.out.println(Arrays.toString(s.quickSort(new int[] {-4,0,7,-4,9,-5,-4,0,-7,-1})));
+ */
 

@@ -35,7 +35,7 @@ public class LargestRectangleArea {
             maxarea = Math.max(maxarea, heights[stack.pop()] * (heights.length - stack.peek() -1));
         return maxarea;
     }
-	/** to research */
+	/** ×î´ó¿í¶È O(n) */
 	public int largestRectangleArea3(int[] heights) {
         int length = heights.length;
         if(length == 0) return 0;

@@ -1,7 +1,5 @@
 package leetcode;
 
-import java.util.Arrays;
-
 public class SetZeroes {
 	public void setZeroes(int[][] matrix) {
         if (matrix.length == 0) return;

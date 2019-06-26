@@ -12,4 +12,18 @@ public class GrayCode {
         }
         return out;
     }
+	/** ¾µÏñÓ³Éä */
+	public List<Integer> grayCode2(int n) {
+        out.add(0);
+        for (int i=0; i<n; i++) {
+        	for (int j=out.size()-1; j>=0; j--) {
+        		out.add(out.get(j)^(1<<i));
+        	}
+        }
+        return out;
+    }
 }
+/*
+GrayCode t = new GrayCode();
+System.out.println((t.grayCode2(1)).toString());
+*/

@@ -18,7 +18,7 @@ public class UniquePathsWithObstacles {
         return matrix[m][n];
     }
 }
-/**
+/*
 UniquePathsWithObstacles t = new UniquePathsWithObstacles();
 int[][] matrix = new int[][]{
 	{0, 1, 0},

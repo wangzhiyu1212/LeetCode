@@ -1,20 +1,5 @@
 package leetcode;
-/**
- * RemoveNthFromEnd r = new RemoveNthFromEnd();
-		ListNode l1 = new ListNode(2);
-    	l1.next = new ListNode(4);
-    	l1.next.next = new ListNode(3);
-    	l1.next.next.next = new ListNode(4);
-    	l1.next.next.next.next = new ListNode(5);
-    	l1.next.next.next.next.next = new ListNode(6);
-    	ListNode l2 = r.removeNthFromEnd(l1, 2);
-    	while(l2 != null) {
-    		System.out.println(l2.val);
-    		l2 = l2.next;
-    	}
- * @author wang
- *
- */
+
 public class RemoveNthFromEnd {
 	public ListNode removeNthFromEnd(ListNode head, int n) {
         ListNode dummy = new ListNode(0);
@@ -35,3 +20,17 @@ public class RemoveNthFromEnd {
         return dummy.next;
     }
 }
+/*
+RemoveNthFromEnd r = new RemoveNthFromEnd();
+ListNode l1 = new ListNode(2);
+l1.next = new ListNode(4);
+l1.next.next = new ListNode(3);
+l1.next.next.next = new ListNode(4);
+l1.next.next.next.next = new ListNode(5);
+l1.next.next.next.next.next = new ListNode(6);
+ListNode l2 = r.removeNthFromEnd(l1, 2);
+while(l2 != null) {
+	System.out.println(l2.val);
+	l2 = l2.next;
+}
+*/

@@ -1,11 +1,5 @@
 package leetcode;
-/**
- * IsPalindrome a = new IsPalindrome();
-		System.out.println(a.isPalindrome(2147483644));
-		System.out.println(13213);
- * @author wangl
- *
- */
+
 public class IsPalindrome {
 	public boolean isPalindrome(int x) {
         if(x<0)
@@ -24,3 +18,8 @@ public class IsPalindrome {
     }
 
 }
+/*
+IsPalindrome a = new IsPalindrome();
+System.out.println(a.isPalindrome(2147483644));
+System.out.println(13213);
+*/

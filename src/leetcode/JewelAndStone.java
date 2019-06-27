@@ -1,10 +1,5 @@
 package leetcode;
-/**
- * JewelAndStone jas = new JewelAndStone();
-		System.out.println(jas.numJewelsInStones("acbBe","aaAAbBba"));
- * @author wangl
- *
- */
+
 public class JewelAndStone {
 
 	public int numJewelsInStones(String J, String S) {
@@ -22,3 +17,7 @@ public class JewelAndStone {
         return count;
     }
 }
+/*
+JewelAndStone jas = new JewelAndStone();
+System.out.println(jas.numJewelsInStones("acbBe","aaAAbBba"));
+*/

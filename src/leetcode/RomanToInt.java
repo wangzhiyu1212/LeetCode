@@ -51,8 +51,11 @@ public class RomanToInt {
         }
         return ans;
     }
-	public static void main(String[] args) {
-		RomanToInt a = new RomanToInt();
-		System.out.println(a.romanToInt("LVIII"));
-	}
+
 }
+/*
+public static void main(String[] args) {
+RomanToInt a = new RomanToInt();
+System.out.println(a.romanToInt("LVIII"));
+}
+*/

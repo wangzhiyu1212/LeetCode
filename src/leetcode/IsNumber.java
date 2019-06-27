@@ -31,7 +31,7 @@ public class IsNumber {
         return num;
     }
 }
-/**
+/*
 IsNumber t = new IsNumber();
 System.out.println(t.isNumber("-1"));
 */

@@ -1,8 +1,5 @@
 package leetcode;
-/**
- * LetterCombinations l = new LetterCombinations();
-		System.out.println(l.letterCombinations("23").toString());
- */
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -45,3 +42,7 @@ public class LetterCombinations {
         return output;
     }
 }
+/*
+LetterCombinations l = new LetterCombinations();
+System.out.println(l.letterCombinations("23").toString());
+*/

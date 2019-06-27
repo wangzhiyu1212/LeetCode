@@ -60,8 +60,8 @@ public class GroupAnagrams {
         return out;
     }
 }
-/**
+/*
 GroupAnagrams t = new GroupAnagrams();
-		for (List<String> list:t.groupAnagrams(new String[] {"eat", "tea", "tan", "ate", "nat", "bat"}))
-			System.out.println(list.toString());
-			*/
+for (List<String> list:t.groupAnagrams(new String[] {"eat", "tea", "tan", "ate", "nat", "bat"}))
+	System.out.println(list.toString());
+*/

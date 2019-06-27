@@ -18,6 +18,6 @@ public class IsMatch {
     }
 }
 /*
- * IsMatch a = new IsMatch();
-		System.out.println(a.isMatch("aaaa", "a*aa"));
- */
+IsMatch a = new IsMatch();
+System.out.println(a.isMatch("aaaa", "a*aa"));
+*/

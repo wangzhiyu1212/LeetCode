@@ -1,11 +1,5 @@
 package leetcode;
-/**
- * LongestCommonPrefix a = new LongestCommonPrefix();
-		String[] strs = new String[] {"flower","flow","flight"};
-		System.out.println(a.longestCommonPrefix(strs));
- * @author wangl
- *
- */
+
 public class LongestCommonPrefix {
 	public String longestCommonPrefix(String[] strs) {
 		int minL=Integer.MAX_VALUE;
@@ -25,3 +19,8 @@ public class LongestCommonPrefix {
         return s.toString();
     }
 }
+/*
+LongestCommonPrefix a = new LongestCommonPrefix();
+String[] strs = new String[] {"flower","flow","flight"};
+System.out.println(a.longestCommonPrefix(strs));
+*/

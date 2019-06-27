@@ -25,7 +25,7 @@ public class Divide {
         return (int)ans * flag;
     }
 }
-/**
+/*
 Divide d = new Divide();
 System.out.println(d.divide(Integer.MIN_VALUE, 1));
 */

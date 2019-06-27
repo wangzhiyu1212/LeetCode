@@ -49,7 +49,7 @@ public class Search {
         return searchTarget(nums,pivot+1,nums.length-1,target);
     }
 }
-/**
+/*
 Search s = new Search();
 System.out.println(s.search(new int[] {1,3},3));
 */

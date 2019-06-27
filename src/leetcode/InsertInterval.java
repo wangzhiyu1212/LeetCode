@@ -28,7 +28,7 @@ public class InsertInterval {
         return res;
     }
 }
-/**
+/*
 InsertInterval t = new InsertInterval();
 int[][] test = new int[][] {
 	{1,1},{6,9},{8,10},{12,16}

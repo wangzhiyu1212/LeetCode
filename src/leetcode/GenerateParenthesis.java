@@ -1,8 +1,5 @@
 package leetcode;
-/**
- * GenerateParenthesis a = new GenerateParenthesis();
-		System.out.println(a.generateParenthesis(3).toString());
- */
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -28,3 +25,7 @@ public class GenerateParenthesis {
         return output;
     }
 }
+/*
+GenerateParenthesis a = new GenerateParenthesis();
+System.out.println(a.generateParenthesis(3).toString());
+*/

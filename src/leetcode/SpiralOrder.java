@@ -34,12 +34,12 @@ public class SpiralOrder {
         return out;
     }
 }
-/**
+/*
 int[][] matrix = new int[][]{
-			{1, 2, 3},
-			{4, 5, 6},
-			{7, 8, 9}
-			};
-		SpiralOrder t = new SpiralOrder();
-		System.out.println(t.spiralOrder(matrix).toString());
-		*/
+	{1, 2, 3},
+	{4, 5, 6},
+	{7, 8, 9}
+	};
+SpiralOrder t = new SpiralOrder();
+System.out.println(t.spiralOrder(matrix).toString());
+*/

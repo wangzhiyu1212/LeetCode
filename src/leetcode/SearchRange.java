@@ -30,7 +30,7 @@ public class SearchRange {
         return out;
     }
 }
-/**
+/*
 SearchRange s = new SearchRange();
 System.out.println(Arrays.toString(s.searchRange(new int[] {5,7,7,8,8,10}, 6)));
 */

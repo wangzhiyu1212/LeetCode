@@ -45,7 +45,7 @@ public class Search2 {
 }
 /*
 public static void main(String[] args) {
-		Search2 s = new Search2();
-		System.out.println(s.search(new int[] {2,5,6,0,0},3));
-	}
+	Search2 s = new Search2();
+	System.out.println(s.search(new int[] {2,5,6,0,0},3));
+}
 */

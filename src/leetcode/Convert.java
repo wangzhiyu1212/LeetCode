@@ -1,8 +1,5 @@
 package leetcode;
-/**
- * Convert c = new Convert();
-	System.out.println(c.convert("LEETCODEISHIRING", 1));
- */
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -35,3 +32,7 @@ public class Convert {
     }
 
 }
+/*
+Convert c = new Convert();
+System.out.println(c.convert("LEETCODEISHIRING", 1));
+*/

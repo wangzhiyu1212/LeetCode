@@ -81,7 +81,7 @@ public class FullJustify {
 		return out;
     }
 }
-/**
+/*
 FullJustify t = new FullJustify();
 String[] words = new String[] {"ask","not","what","your","country","can","do","for","you","ask","what","you","can","do","for","your","country"};
 System.out.println(t.fullJustify(words, 16).toString());

@@ -32,11 +32,11 @@ public class NextPermutation {
     }
 }
 /*
- * int[] nums = new int[] {1,1};
-		for(int start=0,end=nums.length-1;start<end;start++,end--) {
-            int temp = nums[start];
-            nums[start] = nums[end];
-            nums[end] = temp;
-        }
-		System.out.println(Arrays.toString(nums));
+int[] nums = new int[] {1,1};
+for(int start=0,end=nums.length-1;start<end;start++,end--) {
+    int temp = nums[start];
+    nums[start] = nums[end];
+    nums[end] = temp;
+}
+System.out.println(Arrays.toString(nums));
 */

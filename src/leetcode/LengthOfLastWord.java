@@ -20,7 +20,7 @@ public class LengthOfLastWord {
         return end-start;
     }
 }
-/**
+/*
 LengthOfLastWord t = new LengthOfLastWord();
 System.out.println(t.lengthOfLastWord("  "));
 */

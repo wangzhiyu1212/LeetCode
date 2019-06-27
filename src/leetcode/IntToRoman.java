@@ -1,9 +1,5 @@
 package leetcode;
-/**
-IntToRoman a = new IntToRoman();
-System.out.println(a.intToRoman(1994));
-System.out.println(a.intToRoman(58));
-*/
+
 public class IntToRoman {
 
 	public String intToRoman(int num) {
@@ -59,3 +55,8 @@ public class IntToRoman {
 		return s.toString();
 	}
 }
+/*
+IntToRoman a = new IntToRoman();
+System.out.println(a.intToRoman(1994));
+System.out.println(a.intToRoman(58));
+*/

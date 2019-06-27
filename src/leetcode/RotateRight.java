@@ -32,7 +32,7 @@ public class RotateRight {
         return dummy.next;
     }
 }
-/**
+/*
 ListNode l1 = new ListNode(1);
 l1.next = new ListNode(2);
 l1.next.next = new ListNode(3);

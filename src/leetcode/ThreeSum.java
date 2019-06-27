@@ -1,12 +1,5 @@
 package leetcode;
-/**
- * List<List<Integer>> list = new ArrayList<List<Integer>>();
-		ThreeSum t = new ThreeSum();
-		list = t.threeSum(new int[] {-4,-2,-2,-2,0,1,2,2,2,3,3,4,4,6,6});
-		for(List l: list) {
-			System.out.print(l.toString()+",");
-		}
- */
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -49,3 +42,11 @@ public class ThreeSum {
         return list;
     }
 }
+/*
+List<List<Integer>> list = new ArrayList<List<Integer>>();
+ThreeSum t = new ThreeSum();
+list = t.threeSum(new int[] {-4,-2,-2,-2,0,1,2,2,2,3,3,4,4,6,6});
+for(List l: list) {
+	System.out.print(l.toString()+",");
+}
+*/

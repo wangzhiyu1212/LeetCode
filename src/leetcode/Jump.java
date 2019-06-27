@@ -15,7 +15,7 @@ public class Jump {
         return count;
     }
 }
-/**
+/*
 Jump t = new Jump();
 System.out.println(t.jump(new int[] {2,3,1,1,4}));
 */

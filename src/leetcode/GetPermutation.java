@@ -27,7 +27,7 @@ public class GetPermutation {
         return out.toString();
     }
 }
-/**
+/*
 GetPermutation t = new GetPermutation();
 System.out.println(t.getPermutation(8, 33));
 */

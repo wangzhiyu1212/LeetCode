@@ -19,7 +19,6 @@ public class Trap {
         	high = 0;
         	stack.push(i);
         }
-        
         return out;
     }
 }

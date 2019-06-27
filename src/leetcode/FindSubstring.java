@@ -81,7 +81,7 @@ public class FindSubstring {
         return list;        
     }
 }
-/**
+/*
 FindSubstring f = new FindSubstring();
 String[] words = new String[] {"word","good","best","good"};
 System.out.println(f.findSubstring2("wordgoodgoodgoodbestword", words).toString());

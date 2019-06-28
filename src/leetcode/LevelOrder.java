@@ -17,3 +17,16 @@ public class LevelOrder {
         return out;
     }
 }
+/*
+public static void main(String[] args) {
+TreeNode t1 = new TreeNode(3);
+TreeNode t2 = new TreeNode(20);
+t1.left = new TreeNode(9);
+t1.right = t2;
+t2.left = new TreeNode(15);
+t2.right = new TreeNode(7);
+LevelOrder l = new LevelOrder();
+for(List<Integer> list : l.levelOrder(t1))
+	System.out.println(list.toString());
+}
+*/

@@ -6,11 +6,14 @@ import java.util.List;
 public class CodeTestExample {
 	public static void main(String[] args) {
 		TreeNode t1 = new TreeNode(3);
-		TreeNode t2 = new TreeNode(4);
-		t1.left = new TreeNode(1);
+		TreeNode t2 = new TreeNode(20);
+		t1.left = new TreeNode(9);
 		t1.right = t2;
-		t2.left = new TreeNode(2);
-		PreorderTraversal.print(t1);
+		t2.left = new TreeNode(15);
+		t2.right = new TreeNode(7);
+		LevelOrder l = new LevelOrder();
+		for(List<Integer> list : l.levelOrder(t1))
+			System.out.println(list.toString());
 		
 		ListNode l1 = new ListNode(1);
 		l1.next = new ListNode(2);

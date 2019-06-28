@@ -10,6 +10,7 @@ public class CodeTestExample {
 		t1.left = new TreeNode(1);
 		t1.right = t2;
 		t2.left = new TreeNode(2);
+		PreorderTraversal.print(t1);
 		
 		ListNode l1 = new ListNode(1);
 		l1.next = new ListNode(2);

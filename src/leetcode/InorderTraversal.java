@@ -27,4 +27,11 @@ public class InorderTraversal {
 		if (head.right != null)
 			recursive(head.right);
 	}
+	public static void print(TreeNode head) {
+		if (head.left != null)
+			print(head.left);
+		System.out.println(head.val);
+		if (head.right != null)
+			print(head.right);
+	}
 }

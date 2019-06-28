@@ -18,4 +18,11 @@ public class PostorderTraversal {
 			recursive(head.right);
 		out.add(head.val);
 	}
+	public static void print(TreeNode head) {
+		if (head.left != null)
+			print(head.left);
+		if (head.right != null)
+			print(head.right);
+		System.out.println(head.val);
+	}
 }

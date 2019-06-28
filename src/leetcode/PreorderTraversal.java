@@ -18,4 +18,11 @@ public class PreorderTraversal {
 		if (head.right != null)
 			recursive(head.right);
 	}
+	public static void print(TreeNode head) {
+		System.out.println(head.val);
+		if (head.left != null)
+			print(head.left);
+		if (head.right != null)
+			print(head.right);
+	}
 }

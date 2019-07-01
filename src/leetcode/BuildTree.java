@@ -1,6 +1,9 @@
 package leetcode;
 
+import java.util.Deque;
 import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.Queue;
 
 public class BuildTree {
 	int[] pre;
@@ -49,6 +52,30 @@ public class BuildTree {
         	map.put(inorder[i], i);
         return recursivePost(0, postorder.length - 1);
     }
+	
+	/** 按层生成二叉树 */
+	public TreeNode bulidTreeByLevel(int[] level) {
+		Queue<TreeNode> list = new LinkedList<TreeNode>();
+		if (level.length == 0) return null;
+		TreeNode root = new TreeNode(level[0]);
+		list.add(root);
+		for (int i = 1; i < level.length; i = i+2) {
+			TreeNode node = list.poll();
+			if (level[i] == 0) {
+				node.left = null;
+			} else {
+				node.left = new TreeNode(level[i]);
+				list.add(node.left);
+			}
+			if (level[i+1] == 0) 
+				node.right = null;
+			else {
+				node.right = new TreeNode(level[i+1]);
+				list.add(node.right);
+			}
+		}
+		return root;
+	}
 }
 /*
 public static void main(String[] args) {

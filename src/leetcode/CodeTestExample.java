@@ -15,6 +15,12 @@ public class CodeTestExample {
 		for(List<Integer> list : l.levelOrder(t1))
 			System.out.println(list.toString());
 		
+		BuildTree b = new BuildTree();
+		TreeNode root = b.bulidTreeByLevel(new int[] {5,4,8,11,0,13,4,7,2,0,0,5,1});
+		PathSum p = new PathSum();
+		for(List<Integer> list : p.pathSum(root, 22))
+			System.out.println(list.toString());
+		
 		ListNode l1 = new ListNode(1);
 		l1.next = new ListNode(2);
 		l1.next.next = new ListNode(3);

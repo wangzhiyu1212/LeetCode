@@ -1,5 +1,6 @@
 package leetcode;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -55,6 +56,14 @@ public class CodeTestExample {
 			{'A','D','E','E'}
 		};
 		e.exist(board, "ABC");
+		
+		List<List<Integer>> list = new ArrayList<List<Integer>>();
+		list.add(new ArrayList<Integer>(Arrays.asList(2)));
+		list.add(new ArrayList<Integer>(Arrays.asList(3,4)));
+		list.add(new ArrayList<Integer>(Arrays.asList(6,5,7)));
+		list.add(new ArrayList<Integer>(Arrays.asList(4,1,8,3)));
+		MinimumTotal m = new MinimumTotal();
+		System.out.println(m.minimumTotal(list));
 	}
 }
 

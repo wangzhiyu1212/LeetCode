@@ -24,8 +24,8 @@ public class GenerateParenthesis {
         
         return output;
     }
+	public static void main(String[] args) {
+		GenerateParenthesis a = new GenerateParenthesis();
+		System.out.println(a.generateParenthesis(3).toString());
+	}
 }
-/*
-GenerateParenthesis a = new GenerateParenthesis();
-System.out.println(a.generateParenthesis(3).toString());
-*/

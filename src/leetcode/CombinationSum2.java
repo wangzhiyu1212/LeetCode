@@ -31,9 +31,10 @@ public class CombinationSum2 {
         backtrack(0, 0, new ArrayList<Integer>());
         return out;
     }
+	public static void main(String[] args) {
+		CombinationSum2 s = new CombinationSum2();
+		for(List<Integer> list: s.combinationSum2(new int[] {10,1,2,7,6,1,5}, 8))
+			System.out.println(list.toString());
+	}
 }
-/*
-CombinationSum2 s = new CombinationSum2();
-for(List<Integer> list: s.combinationSum2(new int[] {10,1,2,7,6,1,5}, 8))
-	System.out.println(list.toString());
-*/
+
